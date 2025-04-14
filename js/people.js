@@ -7,3 +7,12 @@ const names = require("./names.js");
 
 const hobbies = require("./hobbies.js");
 
+let total = () => {
+    const totalObj = {
+        fullname : names(),
+        hobbies : hobbies(),
+    };
+    return totalObj;
+}
+
+console.log(total());
