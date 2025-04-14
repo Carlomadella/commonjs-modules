@@ -8,3 +8,5 @@ let hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 }
 
 // console.log(hobbies("Football", "Basketball", "LOL"));
+
+module.exports = hobbies;
