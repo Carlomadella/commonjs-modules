@@ -11,3 +11,5 @@ let names = (firstName, lastName) =>{
 }
 
 // console.log(names("Carlo", "Madella"));
+
+module.exports = names;
