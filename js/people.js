@@ -9,8 +9,8 @@ const hobbies = require("./hobbies.js");
 
 let total = () => {
     const totalObj = {
-        fullname : names(),
-        hobbies : hobbies(),
+        fullname : names("Carlo", "Madella"),
+        hobbies : hobbies("Football", "Basketball", "LOL"),
     };
     return totalObj;
 }
